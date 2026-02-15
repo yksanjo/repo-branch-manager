@@ -1,0 +1,12 @@
+{
+  "name": "repo-branch-manager",
+  "version": "1.0.0",
+  "description": "Manage Git branches across repositories",
+  "main": "src/index.js",
+  "bin": { "gh-branch": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "branch"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
